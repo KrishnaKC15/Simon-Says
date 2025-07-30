@@ -48,7 +48,6 @@ function startgame(){
 
     
     let randomNo=Math.ceil(Math.random()*4);
-    console.log(randomNo)
     sequence.push(randomNo);
     
     if(randomNo==1)
@@ -112,7 +111,7 @@ function checkans(){
     {
         count=0;
         score++;
-        console.log(score);
+        
         lock=true;
         level.innerText=`Level ${score+1}`;
         setTimeout(() => {
