@@ -79,9 +79,7 @@
 }
 
 @media (max-width:645px) {
-    *{
-        transform: scale(0.85);
-    }
+    
     .info-text{
         transform: scale(0.4);
         top: -2em;

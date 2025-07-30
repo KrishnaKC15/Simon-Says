@@ -11,6 +11,17 @@ let count=0;
 let lock =true;
 let highScore=0;
 let body=document.querySelector('body');
+body.addEventListener("click",function(){
+    if(check==false)
+    {
+        check=true;
+        level.innerText=`Level ${score+1}`;
+        setTimeout(() => {
+            startgame();
+        }, 2000);
+        
+    }
+})
 body.addEventListener("keydown",function(){
     if(check==false)
     {
