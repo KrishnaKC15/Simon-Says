@@ -96,4 +96,11 @@
         width: 100%;
         margin-top: -3.2em;
     }
+    .boxes{
+        width: 8em;
+        height: 8em;
+        border: 8px solid black;
+        border-radius: 2em;
+        margin: 1em;
+    }
 }
