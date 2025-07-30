@@ -92,10 +92,10 @@
 
 @media (max-width:450px) {
     .container{
-        transform: scale(0.76);
+        
         height: auto;
         width: 100%;
-        margin-top: -15%;
+       
     }
     .boxes{
         width: 8em;
