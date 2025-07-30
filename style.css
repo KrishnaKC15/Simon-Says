@@ -93,5 +93,7 @@
 @media (max-width:450px) {
     .container{
         transform: scale(0.76);
+        width: 100%;
+        margin-top: -3.2em;
     }
 }
