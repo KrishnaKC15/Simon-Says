@@ -23,19 +23,7 @@ html.addEventListener("click",function(){
         
     }
 })
-// html.addEventListener("keydown",function(event){
-//     if(check==false)
-//     {
-//         check=true;
-//         level.innerText=`Level ${score+1}`;
-//         setTimeout(() => {
-//             console.log("1st")
-//             console.log(event.target)
-//             startgame();
-//         }, 2000);
-        
-//     }
-// })
+
 
 let redBox=document.querySelector('.red');
 let tealBox=document.querySelector('.teal');
