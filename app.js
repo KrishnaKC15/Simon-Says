@@ -23,17 +23,19 @@ html.addEventListener("click",function(){
         
     }
 })
-html.addEventListener("keydown",function(){
-    if(check==false)
-    {
-        check=true;
-        level.innerText=`Level ${score+1}`;
-        setTimeout(() => {
-            startgame();
-        }, 2000);
+// html.addEventListener("keydown",function(event){
+//     if(check==false)
+//     {
+//         check=true;
+//         level.innerText=`Level ${score+1}`;
+//         setTimeout(() => {
+//             console.log("1st")
+//             console.log(event.target)
+//             startgame();
+//         }, 2000);
         
-    }
-})
+//     }
+// })
 
 let redBox=document.querySelector('.red');
 let tealBox=document.querySelector('.teal');
@@ -43,6 +45,7 @@ let ans;
 let level=document.querySelector('.levels');
 let high=document.querySelector('.high');
 let info=document.querySelector('.information')
+let resetBtn=document.querySelector('.reset');
 
 function startgame(){
 
@@ -115,6 +118,7 @@ function checkans(){
         lock=true;
         level.innerText=`Level ${score+1}`;
         setTimeout(() => {
+            console.log("2nd")
             startgame();
         }, 2000);
     }
@@ -147,3 +151,18 @@ function checkans(){
         score=0;
     }
 }
+
+resetBtn.addEventListener('click',function(){
+    ans=0;
+    count=0;
+    sequence.splice(0,sequence.length);
+    
+    lock=true;
+    
+    level.innerHTML=`Click anywhere to restart`
+    
+    check=false;
+    
+    
+    score=0;
+})

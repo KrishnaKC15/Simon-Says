@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4em;
+    /* margin-top: 4em; */
 }
 .color-boxes{
     display: flex;
@@ -115,3 +115,23 @@
     }
 }
 
+.reset{
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    font-size: 1.5em;
+    width: 9em;
+    border-radius: 5em;
+    transform: scale(0.8);
+}
+.reset:hover{
+    background-color: red;
+}
+.high,.levels{
+    font-size: 2em;
+}
+
+footer{
+    position: absolute;
+    bottom: 2em ;
+}
