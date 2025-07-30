@@ -10,8 +10,9 @@ let check=false;
 let count=0;
 let lock =true;
 let highScore=0;
+let html=document.querySelector('html');
 let body=document.querySelector('body');
-body.addEventListener("click",function(){
+html.addEventListener("click",function(){
     if(check==false)
     {
         check=true;
@@ -22,7 +23,7 @@ body.addEventListener("click",function(){
         
     }
 })
-body.addEventListener("keydown",function(){
+html.addEventListener("keydown",function(){
     if(check==false)
     {
         check=true;
@@ -140,7 +141,10 @@ function checkans(){
             body.style.backgroundColor='white';
         },150);
         level.innerHTML=`<span>Wrong Sequence.</span><br>Your Score was <strong>${score}</strong>.<br>Press Any key to restart`
-        check=false;
+        setTimeout(()=>{
+            check=false;
+        },1)
+        
         score=0;
     }
 }
