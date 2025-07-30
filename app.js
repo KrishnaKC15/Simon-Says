@@ -139,7 +139,7 @@ function checkans(){
         setTimeout(()=>{
             body.style.backgroundColor='white';
         },150);
-        level.innerHTML=`<span>Wrong Sequence.</span><br>Your Score was <strong>${score}</strong>.<br>Press Any key to restart`
+        level.innerHTML=`<span>Wrong Sequence.</span><br>Your Score was <strong>${score}</strong>.<br>Click anywhere to restart`
         setTimeout(()=>{
             check=false;
         },1)
