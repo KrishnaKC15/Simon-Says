@@ -80,7 +80,7 @@
 
 @media (max-width:645px) {
     .container{
-        transform: scale(0.92);
+        transform: scale(0.86);
     }
     .info-text{
         transform: scale(0.4);
@@ -88,4 +88,10 @@
         left: -6em;
     }
     
+}
+
+@media (max-width:400px) {
+    .container{
+        transform: scale(0.76);
+    }
 }
