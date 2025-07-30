@@ -77,3 +77,13 @@
     display: flex;
     position: relative;
 }
+
+@media (max-width:645px) {
+    
+    .info-text{
+        transform: scale(0.4);
+        top: -2em;
+        left: -6em;
+    }
+    
+}
