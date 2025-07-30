@@ -6,6 +6,12 @@ A browser-based memory game built with HTML, CSS & JavaScript.
 
 Simon Says is a classic memory game. The game flashes a sequence of colors and the player must reproduce it. With each correct attempt, the sequence grows by one - can you remember the ever‑increasing pattern?
 
+### 🔗 Live Demo
+
+You can play game live at:  
+**[Simon Saya](https://krishnakc15.github.io/Simon-Says/)**
+
+
 ### 📽️ Demo Video
 
 ![Preview](demo/demo.mp4)
