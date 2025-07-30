@@ -105,3 +105,13 @@
         margin: 1em;
     }
 }
+@media(max-width:380px){
+    .boxes{
+        width: 5em;
+        height: 5em;
+        border: 8px solid black;
+        border-radius: 2em;
+        margin: 1em;
+    }
+}
+
