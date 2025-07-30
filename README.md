@@ -9,12 +9,12 @@ Simon Says is a classic memory game. The game flashes a sequence of colors and t
 ### 🔗 Live Demo
 
 You can play game live at:  
-**[Simon Saya](https://krishnakc15.github.io/Simon-Says/)**
+**[Simon Says](https://krishnakc15.github.io/Simon-Says/)**
 
 
 ### 📽️ Demo Video
 
-![Preview](demo/demo.mp4)
+![Preview](demo/demo.gif)
 
 ## How to Play
 
